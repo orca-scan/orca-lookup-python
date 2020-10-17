@@ -33,3 +33,10 @@ cd orca-lookup-python
 # install dependencies
 pip install -r requirements.txt
 ```
+
+## Run
+
+```bash
+# start the project
+flask run
+```
