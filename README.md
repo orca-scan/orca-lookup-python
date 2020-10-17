@@ -20,3 +20,16 @@ First ensure you have [Python](https://www.python.org/) installed:
 # should return 2.7 or higher
 python -V
 ```
+
+Then execute the following:
+
+```bash
+# download this example code
+git clone https://github.com/orca-scan/orca-lookup-python.git
+
+# go into the new directory
+cd orca-lookup-python
+
+# install dependencies
+pip install -r requirements.txt
+```
