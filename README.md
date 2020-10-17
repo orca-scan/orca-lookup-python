@@ -53,3 +53,29 @@ Visit [http://localhost:5000?barcode=4S3BMHB68B3286050](http://localhost:5000?ba
     "Year": 1992
 }
 ```
+
+## How this example works
+
+This [example](app.py) uses the [flask](https://github.com/pallets/flask) framework:
+
+```python
+# GET / handler
+@app.route("/")
+def index():
+
+    # get the incoming barcode sent from Orca Scan (scanned by a user)
+    barcode = request.args.get("barcode")
+
+    # TODO: query a database or API to retrieve some data based on barcode value
+    data = {
+        "VIN": barcode,
+        "Make": "SUBARU",
+        "Model": "Legacy",
+        "Manufacturer Name": "FUJI HEAVY INDUSTRIES U.S.A",
+        "Vehicle Type": "PASSENGER CAR",
+        "Year": 1992
+    }
+
+    # return data in JSON format (property names must match Orca column names)
+    return jsonify(data)
+```
