@@ -40,3 +40,16 @@ pip install -r requirements.txt
 # start the project
 flask run
 ```
+
+Visit [http://localhost:5000?barcode=4S3BMHB68B3286050](http://localhost:5000?barcode=4S3BMHB68B3286050) to see the following:
+
+```json
+{
+    "VIN": "4S3BMHB68B3286050",
+    "Make": "SUBARU",
+    "Model": "Legacy",
+    "Manufacturer Name": "FUJI HEAVY INDUSTRIES U.S.A",
+    "Vehicle Type": "PASSENGER CAR",
+    "Year": 1992
+}
+```
