@@ -1,5 +1,6 @@
 # import flask framework
 from flask import Flask
+from flask import request
 
 # create a flask app instance
 app = Flask(__name__)
@@ -7,4 +8,5 @@ app = Flask(__name__)
 # GET / handler
 @app.route("/")
 def index():
-    return "Hello, World!"
+    barcode = request.args.get("barcode")
+    return barcode
