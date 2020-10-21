@@ -33,6 +33,9 @@ cd orca-lookup-python
 # create virtual environment and activate it
 python3 -m venv orca && source ./orca/bin/activate
 
+# upgrade pip to latest version
+pip install --upgrade pip
+
 # install dependencies
 pip install -r requirements.txt
 ```
