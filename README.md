@@ -93,15 +93,12 @@ def index():
 
 If you run into any issues not listed here, please [open a ticket](https://github.com/orca-scan/orca-lookup-python/issues).
 
-## Contributing
-
-To contribute simply:
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request
+## Examples in other langauges
+* [orca-lookup-node](https://github.com/orca-scan/orca-lookup-node)
+* [orca-lookup-dotnet](https://github.com/orca-scan/orca-lookup-dotnet)
+* [orca-lookup-go](https://github.com/orca-scan/orca-lookup-go)
+* [orca-lookup-php](https://github.com/orca-scan/orca-lookup-php)
+* [orca-lookup-java](https://github.com/orca-scan/orca-lookup-java)
 
 ## History
 
