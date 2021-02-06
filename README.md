@@ -106,4 +106,4 @@ For change-log, check [releases](https://github.com/orca-scan/orca-lookup-python
 
 ## License
 
-Licensed under [MIT License](LICENSE) &copy; [Orca Scan](https://orcascan.com)
+Licensed under [MIT License](LICENSE) &copy; Orca Scan - [Barcode Tracking, Simplified.](https://orcascan.com)
