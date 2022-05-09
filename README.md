@@ -16,9 +16,16 @@ This open source project is a an example of [how to scan barcodes using a smartp
 
 First ensure you have [Python](https://www.python.org/downloads/) installed:
 
+**macOS or Linux**
 ```bash
 # should return 3.7 or higher
 python3 --version
+```
+
+**Windows**
+```bash
+# should return 3.7 or higher
+python --version
 ```
 
 Then execute the following:
@@ -29,10 +36,19 @@ git clone https://github.com/orca-scan/orca-lookup-python.git
 
 # go into the new directory
 cd orca-lookup-python
-
+```
+**macOS or Linux**
+```bash
 # create virtual environment and activate it
 python3 -m venv orca && source ./orca/bin/activate
-
+```
+**Windows**
+```bash
+# create virtual environment and activate it
+python -m venv orca && source ./orca/scripts/activate
+```
+**All**
+```bash
 # upgrade pip to latest version
 pip install --upgrade pip
 
@@ -42,10 +58,18 @@ pip install -r requirements.txt
 
 ## Run
 
+**macOS or Linux**
 ```bash
 # activate virtual environment
 source ./orca/bin/activate
-
+```
+**Windows**
+```bash
+# activate virtual environment
+source ./orca/scripts/activate
+```
+**All**
+```bash
 # start the project
 flask run
 ```
